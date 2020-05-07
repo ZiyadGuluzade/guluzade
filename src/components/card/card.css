@@ -1,0 +1,127 @@
+.project-column {
+	margin: 5px 0 5px 0;
+}
+
+/* project card */
+.project-card {
+	position: relative;
+	cursor: pointer;
+	border: 1px solid #1d1d1c;
+	border-radius: 15px;
+	margin: 5px 0 5px 0;
+	padding: 5px 5px 5px 5px;
+}
+
+a.github-link {
+	font-size: 20px;
+	font-weight: 500;
+	background: transparent;
+	color: white;
+	border: 2px solid #4cbaff;
+	padding: 5px 10px 5px 10px;
+	border-radius: 20px;
+	margin: 0 7px 0 0;
+}
+
+a.github-link:hover {
+	background-color: #4cbaff;
+}
+
+a.demo-link {
+	font-size: 20px;
+	font-weight: 500;
+	border: 2px solid #fcaa19;
+	background: transparent;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 20px;
+	margin: 0 0 0 7px;
+}
+
+a.demo-link:hover {
+	background-color: #fcaa19;
+	color: black;
+}
+
+p.name {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+p.description {
+	margin: 0 0 30px 0;
+	font-size: 17px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #14213d;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	outline: 1px solid #4cbaff;
+	outline-offset: -10px;
+	opacity: 0;
+	padding: 15% 20px 20% 20px;
+}
+
+.card-info {
+	text-align: center;
+}
+
+.project-card:hover .overlay {
+	opacity: 1;
+	transition: 0.5 ease;
+}
+
+.description-column {
+	margin: 10px 0 0 0;
+}
+
+.project-card:hover {
+	background-color: #1d1d1c;
+}
+
+h3.name {
+	color: #4cbaff;
+}
+
+h6.subtitle {
+	color: white;
+}
+
+h6.subtitle {
+	color: white;
+}
+
+.github-btn:hover {
+	color: #4cbaff;
+	background-color: #1d1d1d;
+}
+/* media queries */
+@media (max-width: 768px) {
+	.project-card {
+		padding: 10px 5px 5px 5px;
+	}
+
+	.overlay {
+		padding: 20% 5% 20% 5%;
+	}
+}
+
+@media (max-width: 425px) {
+	.project-card {
+		padding: 5px;
+		margin: 0 1vh 0 1vh;
+	}
+
+	.overlay {
+		padding: 10% 10px 10% 10px;
+	}
+}

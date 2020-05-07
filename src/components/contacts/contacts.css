@@ -1,0 +1,30 @@
+#contacts-title {
+	color: white;
+	padding: 20px 0 0 0;
+}
+
+#contacts {
+	padding: 60px 0 100px 0;
+}
+
+.subtitle-box {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 425px) {
+	.subtitle-box {
+		margin-bottom: 30px;
+	}
+
+	#contacts {
+		padding: 60px 0 50px 0;
+	}
+
+	#contacts-columns {
+		margin: 0 5% 0 5%;
+	}
+
+	#contacts-title {
+		font-size: 25px;
+	}
+}

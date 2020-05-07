@@ -1,0 +1,30 @@
+h2 {
+	margin: 5px;
+	font-weight: 900;
+}
+
+/* logo */
+#initials {
+	color: #4cbaff;
+}
+
+.logo-initials {
+	background-color: black;
+	border: 3px solid #4cbaff;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	font-weight: 500;
+	z-index: 300;
+	font-family: 'Russo One', sans-serif;
+}
+
+.logo-initials:hover {
+	background-color: black;
+}
+
+@media (max-width: 768px) {
+	.center {
+		display: flex;
+	}
+}
