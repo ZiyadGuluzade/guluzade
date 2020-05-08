@@ -1,9 +1,9 @@
 {
-	"short_name": "ZG Portfolio",
+	"short_name": "Guluzade",
 	"name": "Ziyad Guluzade Portfolio",
 	"icons": [
 		{
-			"src": "../src/images/logos/logo_portfolio.png",
+			"src": "./favicon.ico",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
 		}
